@@ -1,0 +1,28 @@
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: title:nil
+#+OPTIONS: num:nil
+#+OPTIONS: ::800
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+STARTUP:    showall
+#+TITLE:      Adam Massmann
+#+AUTHOR:     Adam Massmann
+#+EMAIL:      massma "at" autistici "dot" org
+#+LANGUAGE:   en
+
+** Adam Massmann's home
+
+   I am currently a consultant working with [[https://www.ketawaters.com][Keta Waters]]. I am open to
+   a wide range of work: from teaching, to invasives removal, to
+   weather and climate prediction, to dog walking. Please reach out if
+   you have any jobs you would like done.
+
+   email (personal): *massma "at" autistici "dot" org* \\
+   email (work): *adam "at" ketawaters "dot" com* \\
+   [[file:massma.asc][PGP Public key]] - id: 64D3824DEEA15678
+
+
+*** Links
+
+- [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.
