@@ -18,8 +18,8 @@
    weather and climate prediction, to dog walking. Please reach out if
    you have any jobs you would like done.
 
-   email (personal): *massma "at" autistici "dot" org* \\
-   email (work): *adam "at" ketawaters "dot" com* \\
+   email (personal): *massma* "at" *autistici* "dot" *org* \\
+   email (work): *adam* "at" *ketawaters* "dot" *com* \\
    [[file:massma.asc][PGP Public key]] - id: 64D3824DEEA15678
 
 
