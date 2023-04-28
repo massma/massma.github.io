@@ -25,4 +25,5 @@
 
 *** Links
 
+- [[file:almanac.org][New York City Central Park Weather Almanac]] - daily weather observations back to 1869.
 - [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.
