@@ -11,6 +11,8 @@
 #+EMAIL:      massma "at" autistici "dot" org
 #+LANGUAGE:   en
 
+[[file:index.org][{Back to Home}]]
+
 *** New York City Central Park Weather Almanac
 
     This site documents daily weather observations in New York City's
