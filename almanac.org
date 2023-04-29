@@ -18,7 +18,7 @@
     This site documents daily weather observations in New York City's
     Central Park back to 1869[fn:1: Technically observations were at
     nearby 5th Avenue and East 63rd street until 1920, where the site
-    moved to it's current location by Belvedere Castle]. Data are from
+    moved to its current location by Belvedere Castle]. Data are from
     [[https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily][NOAA's Global Historical Climatology Network]]. You can browse the
     data using the links below. Or, if it is easier you can navigate
     directly to a given day's website; each day's website has the
