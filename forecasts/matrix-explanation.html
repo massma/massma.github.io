@@ -1,0 +1,912 @@
+	
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /><title>Guide To Forecast Matrices</title><meta name="DC.title" content="Guide To Forecast Matrices" /><meta name="DC.description" content="Forecast Matrices Guide from WFO Morristown covering east Tennessee, southwest Virginia, and extreme southwest North Carolina" /><meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" /><meta name="DC.date.created" scheme="ISO8601" content="December 2nd 2015 11:38 PM" /><meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" /><meta name="DC.keywords" content="point forecast matrix guide, area forecast matrix guide" /><meta name="DC.publisher" content="NOAA's National Weather Service" /><meta name="DC.contributor" content="National Weather Service" /><meta name="DC.rights" content="http://www.weather.gov/disclaimer.php" /><meta name="rating" content="General" /><meta name="robots" content="index,follow" />
+
+        <link href="/css/weatherstyle.css" rel="stylesheet" type="text/css" />
+        <link href="/css/template.css" rel="stylesheet" type="text/css" />
+        <link href="/css/myfcst.css" rel="stylesheet" type="text/css" />
+        <link href="/css/ForecastSearch.css" rel="stylesheet" type="text/css" />
+        <link href="/css/pointforecast.css" rel="stylesheet" type="text/css" />
+        <link href="/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/widgets.css" rel="stylesheet" type="text/css" />
+        <link href="/css/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <!-- <script type="text/javascript" src="/js/jquery.mobile-1.4.0.min.js"></script> //-->
+        <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
+        <script type="text/javascript" src="/js/ForecastSearch.js"></script>
+        <script type="text/javascript" src="/js/federated-analytics.js"></script>
+        <script type="text/javascript" src="/js/topNavMenu.js"></script>
+        <script type="text/javascript" src="/js/NidsESRI.js"></script>
+        <script type="text/javascript" src="/cfisurvey/cfi.js?v2"></script>
+        <script type="text/javascript" src="/js/widgets.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="/js/nwsexit.js"></script>
+        
+<script>
+$(document).ready(function() {
+  $('img.nocache').each(function () {
+      var $this = $(this);
+      $this.attr('src', noCache($this.attr('src')));
+  });
+});
+function noCache(url) {
+  return url + (url.indexOf('?') >= 0 ? '&nocache=' : '?') + $.now();
+}
+</script>
+
+    </head>
+    <body> 
+        <!-- CFI SURVEY -->
+        <div id='ZN_9tslIS2mj3KoPgp'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div> 
+        <!-- CFI SURVEY END -->
+
+        		<div class="header">
+			<div class="header-content">
+			<a href="http://www.weather.gov" class="header-nws"><img src="/css/images/header.png"  alt="National Weather Service"/></a>
+			<a href="http://www.commerce.gov" class="header-doc"><img src="/css/images/header_doc.png" alt="United States Department of Commerce"/></a>
+            <a href="http://www.noaa.gov" class="header-noaa" title="National Oceanic and Atmospheric Administration"></a>
+            </div>
+                    <div style="clear:both"></div>
+		</div>
+
+		<div class="header-shadow">
+			<div class="header-shadow-content"></div>
+		</div>
+	
+
+        <div class="center">
+
+                    <div class="content">
+            <div class="topnav">
+                <ul id="topnav">
+                    <li>
+                        <script type="text/javascript">
+                            function goBack()
+                            {
+                                if (document.referrer.toLowerCase().indexOf("weather.gov") != -1)
+                                {
+                                    history.back();
+                                }
+                                else
+                                {
+                                    document.location.href = "http://www.weather.gov";
+                                }
+                            }
+                        </script>
+                        <div class="topMenuNavList home">
+                            <a href="#" onclick="goBack();">HOME</a>
+                        </div>
+                    </li>
+                    <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/forecastmaps">FORECAST</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov">Local</a>                        </li>                        <li>                            <a href="http://digital.weather.gov">Graphical</a>                        </li>                        <li>                            <a href="http://www.aviationweather.gov/">Aviation</a>                        </li>                        <li>                            <a href="http://www.weather.gov/marine">Marine</a>                        </li>                        <li>                            <a href="http://water.weather.gov/ahps/">Rivers and Lakes</a>                        </li>                        <li>                            <a href="http://www.nhc.noaa.gov/">Hurricanes</a>                        </li>                        <li>                            <a href="http://www.spc.noaa.gov/">Severe Weather</a>                        </li>                        <li>                            <a href="http://www.weather.gov/fire/">Fire Weather</a>                        </li>                        <li>                            <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Long Range Forecasts</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov">Climate Prediction</a>                        </li>                        <li>                            <a href="https://www.swpc.noaa.gov/">Space Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="https://www.weather.gov/wrh/climate/">PAST WEATHER</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Past Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Heating/Cooling Days</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Monthly Temperatures</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Records</a>                        </li>                        <li>                            <a href="http://aa.usno.navy.mil/">Astronomical Data</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/safety">SAFETY</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/safety/flood">Floods</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/cold">Cold</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/airquality">Air Quality</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/fog">Fog</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat">Heat</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/lightning">Lightning</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/space">Space Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>                        </li>                        <li>                            <a href="http://www.weather.gov/safetycampaign">Safety Campaigns</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wind">Wind</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/drought">Drought</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/winter">Winter Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/informationcenter">INFORMATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>                        </li>                        <li>                            <a href="http://www.weather.gov/wrn/">Weather-Ready Nation</a>                        </li>                        <li>                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/briefing/">Daily Briefing</a>                        </li>                        <li>                            <a href="http://www.nws.noaa.gov/om/hazstats.shtml">Damage/Fatality/Injury Statistics</a>                        </li>                        <li>                            <a href="http://mag.ncep.noaa.gov/">Forecast Models</a>                        </li>                        <li>                            <a href="https://www.weather.gov/gis">GIS Data Portal</a>                        </li>                        <li>                            <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a>                        </li>                        <li>                            <a href="http://weather.gov/publications">Publications</a>                        </li>                        <li>                            <a href="http://www.weather.gov/SKYWARN">SKYWARN Storm Spotters</a>                        </li>                        <li>                            <a href="http://www.weather.gov/StormReady">StormReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/TsunamiReady/">TsunamiReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/education">EDUCATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>                        </li>                        <li>                            <a href="http://www.weather.gov/owlie">NWS Education Home</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/news/">NEWS</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/news">NWS News</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrn/calendar">Events</a>                        </li>                        <li>                            <a href="http://www.weather.gov/socialmedia">Social Media</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>                        </li>                        <li>                            <a href="http://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/search">SEARCH</a>                        </div>
+                             
+                            <div style="opacity: 0;" class="sub">     
+                                <ul class="no-links">
+                                <li><!-- Begin search code -->
+                                    <div id="site-search">
+                                        <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov" /> 
+                                            <label for="query">Search For</label> 
+                                            <input type="text" name="query" id="query" size="12" /> 
+                                            <input type="submit" value="Go" />
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" /> 
+                                                <label for="nws" class="search-scope">NWS</label> 
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa" /> 
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
+                                                        </li>
+            <li class="last">	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/about">ABOUT</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/about">About NWS</a>                        </li>                        <li>                            <a href="http://www.weather.gov/organization">Organization</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/#diversity">Commitment to Diversity</a>                        </li>                        <li>                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>                        </li>                        <li>                            <a href="http://www.weather.gov/insider">International</a>                        </li>                        <li>                            <a href="http://www.weather.gov/organization">National Centers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/">Careers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/contact">Contact Us</a>                        </li>                        <li>                            <a href="https://w1.weather.gov/glossary">Glossary</a>                        </li></ul></div>                        </li>
+                            </ul>
+            </div>
+        </div>
+
+        
+
+            <div class="center-content">
+                <div id="zipcity_news">
+                    		<div class="one-sixth-first">
+			<div id="forecast-lookup">
+				<form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+                    <label for="inputstring">Local forecast by <br />"City, St" or ZIP code</label>
+                    <input id="inputstring" name="inputstring" type="text" value="Enter location ..." onclick="this.value=''" />
+                    <input name="btnSearch" id="btnSearch" type="submit" value="Go" />
+                    <div id="txtError">
+                        <div id="errorNoResults" style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+                        <div id="errorMultipleResults" style="display:none">Multiple locations were found. Please select one of the following:</div>
+                        <div id="errorChoices" style="display:none"></div>
+                        <input id="btnCloseError" type="button" value="Close" style="display:none" />
+                    </div>
+                    <div id="txtHelp"><a style="text-decoration: underline;" href="javascript:void(window.open('http://weather.gov/ForecastSearchHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());">Location Help</a></div>
+                </form>
+
+			</div><!-- <div id="forecast-lookup"> -->
+		</div><!-- <div class="one-sixth-first"> -->
+	
+                    <div class="five-sixth-last">
+    <div id="topnews">
+        <div id="global_localnews" style="float:left;width:800px;">
+            <div id="global_localnews_headerbar_main">
+                <div id="global_localnews_headerbar_sub_left">
+                    <div id="global_localnews_title" style="color:black;margin:5px 0px 2px 0px;font-size:14px;font-weight:bold;">News Headlines</div>
+                </div>
+            </div>
+            <div id="localnews">
+                <ul>
+                                    <li><a href="https://storymaps.arcgis.com/stories/90bdfda3b43a4134a9d835ada420d607"><strong>Check out our new virtual tour of the NWS Morristown Office!</strong></a></li>
+                                    <li><a href="https://www.weather.gov/mrx/skywarn_classes"><strong>In-Person and Virtual SKYWARN spotter training now available!</strong></a></li>
+                                </ul>
+                            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    /** news headline Additional Headlines link **/
+    $(document).ready(function () {
+        $("#additionalNews").toggle();
+        $(".toggleHeadlines a").click(function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            $(".toggleHeadlines").toggle();
+            $(".hidden-news-link").toggle();
+        });
+    });
+</script>
+
+                </div>
+                <div class="full-width-bordertop">
+                    <div class="div-full">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+                        <div class="one-sixth-first" id="sidebar">
+                                    <script type="text/javascript" src="/js/jquery-cookie.js"></script>
+        <script type="text/javascript" src="/js/MyForecastWidget.js"></script>
+        <div id="myfcst-widget">
+            <div id="myfcst">
+                <form id='myfcst-form' action='/widgets/MyForecastWidget.php'>
+                    <span id="myfcst-title">Customize Your <strong>Weather.gov</strong></span>
+                    <span id="myfcst-error"></span>
+                    <div id="myfcst-input-block">
+                        <input type="text" name="myfcst-location-input" id="myfcst-location-input" value="City, ST" /> 
+                        <label for="myfcst-location-input">Enter Your City, ST or ZIP Code</label><br />	
+                        <input type="checkbox" name="myfcst-remember" id="myfcst-remember" />
+                        <label for="myfcst-remember">Remember Me</label> 					
+                    </div>
+                    <div class="myfcst-footer">
+                        <input type="submit" value="Get Weather" id="myfcst-submit" />
+                        <p class="myfcst-policy"><a href="http://www.weather.gov/privacy.php">Privacy Policy</a></p>
+                    </div>
+                </form>
+                <div id="myfcst-fcst"></div>
+                <div id="myfcst-multi-result"></div>
+                <div id="myfcst-loading">LOADING...</div>
+            </div>
+            
+        </div>
+        
+                            
+                        </div><!-- end of <div class="one-sixth-first"> -->
+
+                        <div class="five-sixth-first" id="pagebody">
+                            <div class="div-full breadcrumb">    <div class="sitename">        <p class="sitename-name">Morristown, TN</p>        <p class="sitename-class">Weather Forecast Office</p>    </div>    <div class="location">        <h1 class='location-pagetitle'>Guide To Forecast Matrices</h1>        <div class='location-breadcrumb'>            <a href="https://www.weather.gov">Weather.gov</a> &gt; <a href="https://www.weather.gov/mrx">Morristown, TN</a> &gt; Guide To Forecast Matrices        </div>    </div></div>
+                            <div class="div-full">    <div class="subMenuNav">        <ul id="subMenuNav">            <li>                <div class="subMenuNavList section-link">                    <a href="http://forecast.weather.gov/product.php?site=NWS&issuedby=MRX&product=HWO">Current Hazards</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://www.weather.gov/crh/outlooks?sid=mrx">Outlooks</a>                        </li>                        <li>                            <a href="/mrx/brief">Live Briefing Page</a>                        </li>                        <li>                            <a href="https://www.weather.gov/mrx/SpotterReports">Submit a Storm Report</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/product.php?site=NWS&issuedby=MRX&product=LSR&format=CI&version=1&glossary=0">Local Storm Report</a>                        </li>                        <li>                            <a href="https://www.weather.gov/source/crh/lsrmap.html?zoom=8&lat=35.63&lon=-83.81&hr=24">Graphical Local Storm Report</a>                        </li>                        <li>                            <a href="http://www.spc.noaa.gov/">National Hazards</a>                        </li>                        <li>                            <a href="/mrx/localhwo">Local Hazardous Weather Outlook</a>                        </li>                        <li>                            <a href="/mrx/watchwarnadv">Advisory & Warning Criteria</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/mrx/current">Current Conditions</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="/mrx/current">Surface Observations</a>                        </li>                        <li>                            <a href="/mrx/metsat">Satellite</a>                        </li>                        <li>                            <a href="http://water.weather.gov/precip/">Observed Precipitation</a>                        </li>                        <li>                            <a href="/mrx/hydro_main">Hydrology</a>                        </li>                        <li>                            <a href="http://water.weather.gov/ahps2/index.php?wfo=mrx">Rivers and Lakes</a>                        </li>                        <li>                            <a href="/mrx/wx_radio_products">Audio Weather Conditions</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://radar.weather.gov/region/conus/standard">Radar</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://radar.weather.gov/station/KMRX/standard">Morristown TN Local Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04My40MDIsMzYuMTY5XSwiem9vbSI6OCwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS01SWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5IjpmYWxzZX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWV9#/">Morristown TN Local Enhanced Radar</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/region/conus/standard">National Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/station/KHTX/standard">Huntsville AL Local Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04NS41NSwzNC43NTVdLCJ6b29tIjo4LCJmaWx0ZXIiOiJXU1ItODhEIiwibGF5ZXIiOiJicmVmX3JhdyIsInN0YXRpb24iOiJLSFRYIiwidHJhbnNwYXJlbnQiOnRydWUsImFsZXJ0c092ZXJsYXkiOnRydWUsInN0YXRpb25JY29uc092ZXJsYXkiOmZhbHNlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/">Huntsville AL Local Enhanced Radar</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/station/KJKL/standard">Jackson KY Local Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04My4xODcsMzcuMDg5XSwiem9vbSI6OCwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0pLTCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5IjpmYWxzZX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWV9#/">Jackson KY Local Enhanced Radar</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/station/KOHX/standard">Nashville TN Local Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04Ni42MTksMzYuMDI3XSwiem9vbSI6OCwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS09IWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5IjpmYWxzZX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWV9#/">Nashville TN Local Enhanced Radar</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/mrx/fcst_main">Forecasts</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://forecast.weather.gov/wxplanner.php?site=mrx">Activity Planner</a>                        </li>                        <li>                            <a href="/mrx/fireweather">Fire</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/product.php?site=NWS&issuedby=MRX&product=AFD&format=CI&version=1&glossary=1">Forecaster's Discussion</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/gridpoint.php?site=mrx&TypeDefault=graphical">Hourly View</a>                        </li>                        <li>                            <a href="https://www.airnow.gov/?city=Morristown&state=TN&country=USA">Air Quality</a>                        </li>                        <li>                            <a href="https://www.wpc.ncep.noaa.gov/wwd/wssi/wssi.php?id=MRX">Winter Weather</a>                        </li>                        <li>                            <a href="/mrx/aviation">Aviation Weather</a>                        </li>                        <li>                            <a href="/mrx/riverlakes">Rivers & Lakes Forecasts</a>                        </li>                        <li>                            <a href="/mrx/mountainpeaks">Mountain Forecasts</a>                        </li>                        <li>                            <a href="/mrx/wx_radio_products">Audio Forecasts</a>                        </li>                        <li>                            <a href="http://www.weather.gov/srh/tropical?office=mrx">Tropical Weather</a>                        </li>                        <li>                            <a href="/mrx/fcst_main">Local Forecast Links</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://water.weather.gov/ahps2/index.php?wfo=MRX">Rivers and Lakes</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://water.weather.gov/ahps2/index.php?wfo=mrx">Obs and Forecasts</a>                        </li>                        <li>                            <a href="/mrx/hydro_main">Hydrology</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://www.weather.gov/wrh/Climate?wfo=mrx">Climate and Past Weather</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://droughtmonitor.unl.edu/">Drought</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Climate Prediction</a>                        </li>                        <li>                            <a href="http://xmacis.rcc-acis.org/">Climate Data Search Tool</a>                        </li>                        <li>                            <a href="http://www.weather.gov/climate/">National</a>                        </li>                        <li>                            <a href="/mrx/sr_ss">Sunrise & Sunset</a>                        </li>                        <li>                            <a href="https://www.weather.gov/mrx/TropicalEventSummary">Tropical Cyclone Reports</a>                        </li>                        <li>                            <a href="http://www.weather.gov/climate/local_data.php?wfo=mrx">More...</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/mrx/">Local Programs</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://www.weather.gov/mrx/SpotterReports">Submit A Storm Report</a>                        </li>                        <li>                            <a href="http://www.stormready.noaa.gov/">Get Prepared</a>                        </li>                        <li>                            <a href="/mrx/skywarn_page">SKYWARN</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/mrx/wcm/SevereWeatherGuide.pdf">Severe Weather Safety Guide</a>                        </li>                        <li>                            <a href="/mrx/nwr">Weather Radio</a>                        </li>                        <li>                            <a href="https://www.weather.gov/mrx/education">Educational Resources</a>                        </li>                        <li>                            <a href="/mrx/research">Local Research</a>                        </li>                        <li>                            <a href="http://midsouthtornadoes.msstate.edu/index.php?cw=mrx">Tornado Database</a>                        </li>                        <li>                            <a href="https://www.weather.gov/mrx/event_summary_archive">Event Summaries</a>                        </li>                    </ul>                </div>            </li>        </ul>    </div></div>
+
+                            
+                            
+                            
+                                        <div class="div-full">
+                <div class="cms-content"><center>
+<h3><strong>WHAT ARE THE FORECAST MATRICES?</strong></h3>
+</center>
+
+<hr />
+<p align="center"><strong><a href="https://forecast.weather.gov/product.php?site=NWS&amp;product=PFM&amp;issuedby=MRX">POINT FORECAST MATRICES (PFM)</a> and <a href="https://forecast.weather.gov/product.php?site=NWS&amp;product=AFM&amp;issuedby=MRX">AREA FORECAST MATRICES (AFM)</a></strong></p>
+
+<table border="0" cellpadding="6" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="left">
+			<dl>
+				<dd>The <a href="https://forecast.weather.gov/product.php?site=NWS&amp;product=PFM&amp;issuedby=MRX">PFM</a> will display point forecast matrices for the following four points: Tri-Cities airport, Knoxville airport, Oak Ridge and Chattanooga airport. The <a href="https://forecast.weather.gov/product.php?site=NWS&amp;product=AFM&amp;issuedby=MRX">AFM</a> will display forecast matrices for each county in the <a href="/mrx/cwa_mrx">Morristown forecast area</a>. The matrices will display forecast weather parameters in 3, 6, and 12 hour intervals out to 7 days in the future. These two products will be routinely issued twice a day around 4 am and 4 pm LST and updated as needed.<br />
+				<br />
+				<br />
+				<strong>HOW TO READ/INTERPRET THE FORECAST MATRICES</strong></dd>
+				<dd>There are several forecast parameters which appear in the PFM and AFM products. Some of these values are forecast in 12 hour intervals while others are forecast in 3 and 6 hour intervals. Listed below is an example of a forecast matrix with a description of each of its parameters.<br />
+				&nbsp;</dd>
+			</dl>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<blockquote>
+<pre>
+<font size="1">DATE             FRI 03/19/10            SAT 03/20/10            SUN 03/21/10
+EDT 3HRLY     05 08 11 14 17 20 23 02 05 08 11 14 17 20 23 02 05 08 11 14 17 20
+UTC 3HRLY     09 12 15 18 21 00 03 06 09 12 15 18 21 00 03 06 09 12 15 18 21 00
+
+MAX/MIN                      67          35          68          44          62
+TEMP                49 61 65 58 49 44 40 38 51 62 67 61 55 51 48 45 53 59 61 56
+DEWPT               33 31 31 32 33 33 33 34 36 38 39 39 40 41 42 42 42 42 41 40
+RH                  54 32 28 37 54 65 76 85 56 41 36 44 57 68 80 89 66 53 48 55
+WIND DIR             W NW  W  W  S SE SE  S SW SW  W  W  S SE SE SE SE SE SE SE
+WIND SPD             3  6  5  4  3  2  2  0  4  9  6  2  1  2  3  4  8 11 12 12
+CLOUDS              CL CL CL FW FW FW FW SC SC SC B1 B1 B1 B2 B2 B2 B2 OV OV OV
+POP 12HR                      0           0          10          20          60
+QPF 12HR                      0           0           0        0.01        0.10
+RAIN SHWRS                                                     S  C  C  L  L  C
+
+
+DATE          MON 03/22/10  TUE 03/23/10  WED 03/24/10  THU 03/25/10
+EDT 6HRLY     02 08 14 20   02 08 14 20   02 08 14 20   02 08 14 20
+UTC 6HRLY     06 12 18 00   06 12 18 00   06 12 18 00   06 12 18 00
+
+MIN/MAX          40    50      34    56      35    66      42    65
+TEMP          46 41 48 46   38 36 52 50   41 37 61 60   49 44 61 59
+DEWPT         35 32 30 30   29 29 29 30   30 31 33 35   39 39 41 42
+PWIND DIR        SE     W       W     W      SW     S       S    SW
+WIND CHAR        GN    GN      GN    LT      LT    LT      LT    LT
+AVG CLOUDS    OV OV OV OV   B2 B2 B1 B1   SC SC FW FW   SC SC B1 B1
+POP 12HR         50    30      20    10       5     5      10    30
+RAIN                         S  S                                  
+RAIN SHWRS     C  C  C  C                                      C  C</font></pre>
+</blockquote>
+
+<table border="0" cellpadding="6" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="left">
+			<dl>
+				<dd>
+				<p><em><strong>GENERAL FORMAT:</strong></em></p>
+
+				<p>Below the product issuance time/date, the forecast date and time blocks will be displayed. The day of the week will be expressed by the standard 3-letter identifiers (SUN, MON, TUE, WED, THU, FRI, SAT) followed by the month, day and year (MM/DD/YY). The day and date labels are left justified above the 6:00 a.m. local time hour.</p>
+
+				<p>The following two lines provide the forecast times at 3 hour intervals (indicated by 3HRLY) out to 60 hours (2 &frac12; days) into the future. Listed on the far left of the time lines are the 3-letter time zone abbreviations (e.g., UTC, LST).</p>
+
+				<p>The second block is valid from 66 hours through Day 7. Once again, the local time zone is LST, but the forecast time intervals are at least 6 hours (indicated by 6HRLY). Some of the time intervals are 12 hours</p>
+
+				<p><em><strong>Maximum/Minimum temperatures: MAX/MIN (or alternatively, MIN/MAX for afternoon issuance)</strong></em> is the forecast of maximum or minimum temperatures in degrees Fahrenheit (F). The nighttime MIN and daytime MAX may be displayed as single integer (e.g., -2, 8, 53, 102) , or as a range (e.g., 54 56 60) if the MAX/MIN temperatures are expected to vary across the area. This is illustrated in the AFM / PFM format documents. In AFM / PFM products, the middle number within the range is the representative single value for that area. MAX/MIN is included through Day 7.</p>
+
+				<p>The effective time periods for MaxT and MinT are set as follows:</p>
+
+				<ul type="disc">
+					<li>
+					<ul>
+						<li>MaxT
+						<ol type="a">
+							<li>o All but Alaska: 7 am to 7 pm LST</li>
+							<li>o Alaska: 5 am to 8 pm LST</li>
+						</ol>
+						</li>
+					</ul>
+
+					<ul>
+						<li>Min T
+						<ol type="a">
+							<li>o All but Alaska: 7 pm to 8 am LST</li>
+							<li>o Alaska: 5 pm to 11 am LST</li>
+						</ol>
+						</li>
+					</ul>
+					</li>
+				</ul>
+
+				<p>Note that due to a 3-hour minimum time resolution, this element is right justified in the column beneath the <em>approximate</em> ending time of the MAX/MIN period.</p>
+
+				<p>Maximum and minimum temperature values are determined by sampling the MaxT and MinT grids for each of the 14 day/night periods.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Temperature: TEMP</strong></em> is a snapshot of the expected temperature in degrees F valid at the indicated hour. The temperature is right justified in the column below the hour to which it refers..</p>
+
+				<p>+ Temperature is available at 3 hour projections through 60 hours, then 6-hour projections through Day 7.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Dewpoint: DEWPT</strong></em> is a snapshot of the expected dew point temperature in degrees F for the same time periods as its corresponding temperature forecast. DEWPT is located directly below the temperature line.</p>
+
+				<p>+ Dewpoint is available for the same time projections as temperature.</p>
+
+				<p>&nbsp;</p>
+
+				<p><strong><em>Relative Humidity: RH</em></strong> is a snapshot of the expected RH for the same time periods as its corresponding temperature and dew point forecast. The RH row is located directly below the &ldquo;DEWPT&rdquo; row.</p>
+
+				<p>+ RH is calculated from 3 hourly temperature and dewpoint grids</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Wind Direction: WIND DIR</strong></em> is a snapshot of the expected wind direction forecast to occur at the indicated hour, using the 8 points of a compass (i.e., N, NE, E, SE, S, SW, W, NW).</p>
+
+				<p>If a calm wind is forecast, double zeros (00) will be listed in place of a wind direction. WIND DIR is located below the hour to which it refers. WIND DIR is available at 3-hour projections out to 60 hours. (Note special exception to wind direction for tropical cyclones below.)</p>
+
+				<p>In the 6HRLY block, PWIND DIR is the &ldquo;predominant&rdquo; wind direction for the area during the 12-hour period between 6:00 a.m. and 6:00 p.m., or 6:00 p.m. and 6:00 a.m. local time. PWIND DIR is available beyond 60 hours through Day 7.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Wind Speed: WIND SPD</strong></em> is a snapshot of the sustained wind speed in miles per hour (MPH) forecast to occur at the indicated hour. If a calm wind is forecast, double zeros (00) will be listed in place of a wind speed. (Note special exception to wind speed for tropical cyclones below). WIND SPD is valid at 3-hour projections out to 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Wind Character: WIND CHAR</strong></em> codes are used beyond 60 hours through Day 7 of the forecast and denote the character of the wind for the 12-hour period between 6:00 a.m. and 6:00 p.m., or 6:00 p.m. and 6:00 a.m. WIND CHAR is comprised of range categories used in conjunction with deterministic wind speeds. Each range category is equated to a descriptive wind term, i.e., a &ldquo;wind character&rdquo; to best describe the MAXIMUM SUSTAINED wind speed during the period. . See below for the complete list of AFM / PFM wind categories.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="85%">
+					<tbody>
+						<tr>
+							<td align="left" bgcolor="#cccccc" valign="top" width="30%"><strong>Wind Character Codes</strong></td>
+							<td align="left" bgcolor="#cccccc" valign="top" width="30%"><strong>Wind Character</strong></td>
+							<td align="left" bgcolor="#cccccc" height="39" valign="top" width="40%"><strong>12-hr Maximum Sustained Wind Speed</strong></td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="120">LT</td>
+							<td align="left" height="20" valign="top" width="153"><strong>L</strong>igh<strong>t </strong></td>
+							<td align="left" height="20" valign="top" width="211">&lt; 8 mph</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="120">GN</td>
+							<td align="left" height="20" valign="top" width="153"><strong>G</strong>e<strong>n</strong>tle</td>
+							<td align="left" height="20" valign="top" width="211">8 - 14 mph</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="120">BZ</td>
+							<td align="left" height="20" valign="top" width="153"><strong>B</strong>ree<strong>z</strong>y</td>
+							<td align="left" height="20" valign="top" width="211">15 - 22 mph</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="120">WY</td>
+							<td align="left" height="20" valign="top" width="153"><strong>W</strong>ind<strong>y </strong></td>
+							<td align="left" height="20" valign="top" width="211">23 - 30 mph</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="120">VW</td>
+							<td align="left" height="20" valign="top" width="153"><strong>V</strong>ery <strong>W</strong>indy</td>
+							<td align="left" height="20" valign="top" width="211">31 - 39 mph</td>
+						</tr>
+						<tr>
+							<td align="left" height="21" valign="top" width="120">SD</td>
+							<td align="left" height="21" valign="top" width="153"><strong>S</strong>trong/<strong>D</strong>amaging</td>
+							<td align="left" height="21" valign="top" width="211">40 mph</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><strong><em>AFM/PFM Wind Character Codes. </em></strong></p>
+
+				<p align="center">&nbsp;</p>
+
+				<p><em><strong>Wind gust: A WIND GUST</strong></em> row will appear in the 3HRLY block whenever forecasted wind gusts exceed the sustained wind speed (WIND SPD) by at least 10 MPH. WIND GUST is a snapshot valid on the hour indicated at the top of the corresponding column. WIND GUST is a snapshot of gusts of wind occurring at the indicated hour and is available at 3-hour projections through 60 hours. (Note special exception to wind gust for hurricanes below.)</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Cloud Cover: The CLOUDS</strong></em> category provides a snapshot of sky coverage during the indicated hour. CLOUDS is divided into five category codes ranging from clear to overcast . Each code represents an equivalent percentage of opaque sky cover in percent. <em>CLOUDS parameter is included at 3-hour projections out to 60 hours. </em>In the 6HOURLY section, AVG CLOUDS <em>is valid for 6-hour intervals beyond 60 hours through Day 7 </em>and denotes the average amount of all opaque clouds during the 6-hour period ending on the hour indicated at the top of the column. The complete cloud codes and sky cover definitions are shown in the table below.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="85%">
+					<tbody>
+						<tr>
+							<td bgcolor="#cccccc" width="20%">
+							<div align="center"><strong>AFM / PFM Sky Cover Code </strong>&nbsp;&nbsp;</div>
+							</td>
+							<td bgcolor="#cccccc" width="40%">
+							<div align="center">
+							<p><strong>Predominant Sky Cover<br />
+							(Opaque Cloud Coverage in Percent)</strong></p>
+							</div>
+							</td>
+							<td bgcolor="#cccccc" width="40%">
+							<div align="center"><strong>Equivalent Sky Cover Expressions</strong></div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="middle" width="163">CL</td>
+							<td align="left" height="20" valign="middle" width="198">0% to &le; 5%</td>
+							<td align="left" height="20" valign="middle" width="294">SUNNY or CLEAR</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="163">FW</td>
+							<td align="left" height="20" valign="top" width="198">&gt; 5% and &le; 25%</td>
+							<td align="left" height="20" valign="top" width="294">SUNNY or MOSTLY CLEAR</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="middle" width="163">SC</td>
+							<td align="left" height="20" valign="middle" width="198">&gt; 25%&iuml;&iuml;&iquest;&frac12;&pound; and &le; 50%</td>
+							<td align="left" height="20" valign="middle" width="294">MOSTLY SUNNY or PARTLY CLOUDY</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="163">B1</td>
+							<td align="left" height="20" valign="top" width="198">&gt; 50% and &le; 69%</td>
+							<td align="left" height="20" valign="top" width="294">PARTLY SUNNY or MOSTLY CLOUDY</td>
+						</tr>
+						<tr>
+							<td align="left" height="39" valign="top" width="163">B2</td>
+							<td align="left" height="39" valign="top" width="198">&gt; 69% and &le; 87%</td>
+							<td align="left" height="39" valign="top" width="294">MOSTLY CLOUDY or CONSIDERABLE CLOUDINESS</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="163">OV</td>
+							<td align="left" height="20" valign="top" width="198">&gt; 87% and&iuml;&iuml;&iquest;&frac12;&pound; 100%</td>
+							<td align="left" height="20" valign="top" width="294">CLOUDY or OVERCAST</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><strong><em>AFM / PFM Sky Cover Codes </em></strong></p>
+
+				<p align="center">&nbsp;</p>
+
+				<p><em><strong>12-hourly Probability of Precipitation (POP 12HR)</strong></em>. Probability of Precipitation (POP), is defined as the likelihood, expressed as a percent, of a measurable precipitation event (1/100th of an inch) at any given point within the forecast area(s) covered by the AFM / PFM. The &ldquo;12HR&rdquo; refers to the 12-hour valid time ending at 6:00 a.m. or 6:00 p.m. local time (0600 or 1800). The POP 12HR values that may appear in the AFM / PFM are as follows: 0, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. These values are right justified in the column beneath the hour defining the ending time of the valid period.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>QPF 12HR</strong></em>. Quantitative precipitation forecast (QPF) represents the total amount of liquid precipitation, in inches, expected during a 12-hour period ending at 6:00 a.m., or 6:00 p.m. local time. The QPF is presented in locally defined ranges, (e.g., .10-.24), or single values. The QPF 12HR value is right justified in the column beneath the hour defining the ending time of the expected precipitation. QPF 12HR is included in the AFM / PFM out to 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>MAX QPF (optional).</strong></em> The value for MAX QPF is the estimated maximum amount of precipitation, in inches, during the12-hour period ending at 6:00 a.m. or 6:00 p.m. local time. This amount is presented as either a single value or a range, and is based upon a 75% confidence level of the QPF forecaster(s). MAX QPF is right justified below the hour defining the ending time of the expected precipitation, and is available out to 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>SNOW 12HR</strong></em>. The expected range of total snowfall accumulation (in whole inches) forecast to occur in the forecast area during a 12-hour period ending at 6:00 a.m. or 6:00 p.m. local time. SNOW 12HR will only appear during the locally defined winter period. The snow parameter contains 1 to 5 alphanumeric characters which are right justified in the column below the hour defining the <em>ending time</em> of the precipitation period. SNOW 12HR may appear as a one or two digit number (1, 4, 12), or as a specified range (2-4, 8-12). When no snowfall is forecast during the locally specified winter period, double zeros (00-00) will appear in the row. Snowfall that is not measurable (less than 0.1 inch of frozen precipitation) is referred to as a trace. A trace of snow is depicted by a &ldquo;T.&rdquo; SNOW 12HR is included out to 36 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Precipitation Type (PTYPE) and Category: </strong></em>The AFM / PFM may list several types of precipitation. Precipitation types only appear if they are forecast to occur during the seven day forecast. Precipitation type codes are listed in the far left column of the AFM / PFM. For each type of precipitation that is forecast, an associated POP category is specified within the body of the product. During the first 60 hours, the POP category for the indicated precipitation type is a snapshot valid at the hour specified by the column header. Beyond 60 hours through Day 7, the POP category reflects the prevailing POP during the 6-hour period including and preceding the hour indicated at the top of the column. PTYPE and Category is available at 3-hr projections out to 60 hours, then for 6-hour periods beyond 60 hours through Day 7.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="75%">
+					<tbody>
+						<tr>
+							<td align="left" height="21" valign="top" width="50%">RAIN SHWRS</td>
+							<td align="left" height="21" valign="top" width="50%">Rain Showers</td>
+						</tr>
+						<tr>
+							<td>SPRINKLES</td>
+							<td>Sprinkles</td>
+						</tr>
+						<tr>
+							<td>TSTMS</td>
+							<td>Thunderstorms</td>
+						</tr>
+						<tr>
+							<td>DRIZZLE</td>
+							<td>Drizzle</td>
+						</tr>
+						<tr>
+							<td>SNOW</td>
+							<td>Snow, Snow Grains/Pellets</td>
+						</tr>
+						<tr>
+							<td>SNOWSHWRS</td>
+							<td>Snow Showers</td>
+						</tr>
+						<tr>
+							<td>FLURRIES</td>
+							<td>Snow Flurries</td>
+						</tr>
+						<tr>
+							<td>SLEET</td>
+							<td>Ice Pellets</td>
+						</tr>
+						<tr>
+							<td>FRZG RAIN</td>
+							<td>Freezing Rain</td>
+						</tr>
+						<tr>
+							<td>FRZG DRZL</td>
+							<td>Freezing Drizzle</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><em><strong>Sensible Weather Codes. </strong></em></p>
+
+				<p align="center">&nbsp;</p>
+
+				<p>Probability of Precipitation and Areal Coverage codes appearing in the AFM / PFM are shown below, along with their equivalent POP or areal coverage in percent.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="75%">
+					<tbody>
+						<tr>
+							<td bgcolor="#cccccc" width="66"><strong>Code</strong>&nbsp;</td>
+							<td bgcolor="#cccccc" width="199">
+							<p><strong>Qualifying Term</strong><br />
+							<strong>(Stratiform or Convective)</strong></p>
+							</td>
+							<td bgcolor="#cccccc" width="35%"><strong>POP (%)</strong></td>
+						</tr>
+						<tr>
+							<td>S</td>
+							<td>Slight Chance</td>
+							<td>(&gt; 0 and &iuml;&iuml;&iquest;&frac12;&pound; 20%)</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Chance</td>
+							<td>(30%-50%)</td>
+						</tr>
+						<tr>
+							<td>L</td>
+							<td>Likely</td>
+							<td>(60%-70%)</td>
+						</tr>
+						<tr>
+							<td>O</td>
+							<td>Occasional/Periods of</td>
+							<td>(80%-100%)</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>None</td>
+							<td>(80%-100%)</td>
+						</tr>
+						<tr>
+							<td bgcolor="#cccccc"><strong>Code </strong></td>
+							<td bgcolor="#cccccc"><strong>Areal Term (Convective)</strong></td>
+							<td bgcolor="#cccccc"><strong>Areal Coverage (%)</strong></td>
+						</tr>
+						<tr>
+							<td>IS</td>
+							<td>Isolated</td>
+							<td>(&iuml;&iuml;&iquest;&frac12;&pound; 20%)</td>
+						</tr>
+						<tr>
+							<td>SC</td>
+							<td>Scattered</td>
+							<td>(30%-50%)</td>
+						</tr>
+						<tr>
+							<td>NM</td>
+							<td>Numerous</td>
+							<td>(60%-70%)</td>
+						</tr>
+						<tr>
+							<td>EC</td>
+							<td>None (extensive coverage)</td>
+							<td>(80%-100%)</td>
+						</tr>
+						<tr>
+							<td bgcolor="#cccccc"><strong>Code </strong></td>
+							<td bgcolor="#cccccc"><strong>Areal Term<br />
+							(Non-Measurable Stratiform)</strong></td>
+							<td bgcolor="#cccccc"><strong>Areal Coverage (%)</strong></td>
+						</tr>
+						<tr>
+							<td>PA</td>
+							<td>Patchy</td>
+							<td>(&lt;25%)</td>
+						</tr>
+						<tr>
+							<td>AR</td>
+							<td>Areas</td>
+							<td>(25&gt;50%)</td>
+						</tr>
+						<tr>
+							<td>WD</td>
+							<td>Widespread</td>
+							<td>(&gt;50%)</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><strong><em>POP and Areal Coverage Codes. </em></strong></p>
+
+				<p>Precipitation categories are snapshots available at 3-hour projections out to 60 hours, then averaged over 6-hour intervals out to Day 7.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>Obstructions to Visibility (OBVIS):</strong></em> If an OBVIS is predicted for the forecast area, a row labeled OBVIS will be listed underneath any forecast of precipitation. If no precipitation is forecast, then OBVIS will be listed under the row labeled CLOUDS. OBVIS is a snapshot available at 3-hour projections through 60 hours. The complete OBVIS code list and associated definitions are shown below.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="60%">
+					<tbody>
+						<tr>
+							<th bgcolor="#cccccc" width="40%"><strong>AFM / PFM Code </strong></th>
+							<th bgcolor="#cccccc" width="60%">Obstruction to Visibility</th>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">F</td>
+							<td align="left" height="20" valign="top" width="271">Fog</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">PF</td>
+							<td align="left" height="20" valign="top" width="271">Patchy Fog</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">F+</td>
+							<td align="left" height="20" valign="top" width="271">Dense Fog</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">PF+</td>
+							<td align="left" height="20" valign="top" width="271">Patchy Dense Fog</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">H</td>
+							<td align="left" height="20" valign="top" width="271">Haze</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">BS</td>
+							<td align="left" height="20" valign="top" width="271">Blowing Snow</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">K</td>
+							<td align="left" height="20" valign="top" width="271">Smoke</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">BD</td>
+							<td align="left" height="20" valign="top" width="271">Blowing Dust</td>
+						</tr>
+						<tr>
+							<td align="left" height="20" valign="top" width="96">AF</td>
+							<td align="left" height="20" valign="top" width="271">Volcanic Ashfall</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><em><strong>Obstruction to Visibility Codes.</strong></em></p>
+
+				<p align="center">&nbsp;</p>
+
+				<p><em><strong>Wind Chill and Heat Index: </strong></em>Wind Chill and Heat Index are included seasonally based upon locally defined criteria. The decision on whether to include or exclude these parameters is determined by the local WFO criteria. Wind Chill and Heat Index are snapshots at the indicated hour and are forecast at 3-hour projections out to 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>MIN CHILL and MAX HEAT.</strong></em> When WIND CHILL or HEAT INDEX values appear in the AFM / PFM, a 6-hour minimum wind chill or maximum heat index may appear on the following row. These values indicate the minimum wind chill/ maximum heat index forecast to occur during the 6-hour period (inclusive of and preceding) the hour indicated at the top of the column. MIN CHILL and MAX HEAT, if included, will be at 6-hr intervals out to 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><em><strong>WATCH, WARNING and ADVISORY</strong></em>. When Valid Time Event Codes (VTEC) as described in NWS Directive 10-1703 becomes available, long duration hazardous weather events will be included when a valid WATCH, WARNING and/or ADVISORY is issued by a WFO. The weather phenomena codes are decoded into plain language from VTEC and will appear as labels for additional rows at the bottom of the 3HRLY block. Within the text of the AFM / PFM, the VTEC codes for WATCH [A], WARNING [W], and ADVISORY [Y] will appear if the valid time of the event is in effect during the indicated hour. If valid, these codes will only appear during the first 60 hours.</p>
+
+				<p>&nbsp;</p>
+
+				<p><strong>Special Instructions for Tropical Cyclones</strong>. Due to the uncertainty in the location and intensity of tropical cyclones, special instructions will apply to AFM / PFM entries for wind speed, wind direction and wind gusts for various time periods as described in the following sections and the table below.</p>
+
+				<p>a. <u>Zero to 24 Hours</u>. If forecast winds for a specified land area meet or exceed hurricane force (i.e., 64 kts or 74 mph) within the first 24 hours, the AFM / PFM will portray wind direction (WIND DIR) to the 8 points of a compass, deterministic wind speed (WIND SPD), and deterministic wind gusts (WIND GUST) as shown in the table below.</p>
+
+				<p>b. <u>Beyond 24 Hours</u>. If the potential exists for winds in a specified land area to meet or exceed hurricane force beyond 24 hours, the AFM / PFM will portray wind direction, and wind speed using the code &ldquo;<strong>HU</strong>&rdquo; in lieu of the deterministic winds (beyond 24 to 60 hours), and in lieu of the predominant wind direction (PWIND DIR) and wind character codes (beyond 60 hours to 120 hours). The code &ldquo;<strong>HG</strong>&rdquo; will appear in the AFM / PFM to indicate hurricane force wind gusts are possible. HG will be portrayed in lieu of the deterministic wind gusts beyond 24 hours to 60 hours only (see table below). Both the HU and HG codes indicate hurricane force winds, or wind gusts respectively<em>, could</em> occur. Users should refer to the tropical cyclone center or local WFO for the latest details concerning the storm.</p>
+
+				<table align="center" border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" width="80%">
+					<tbody>
+						<tr>
+							<td bgcolor="#cccccc" width="25%"><strong>Forecast Period<br />
+							(Hours) </strong></td>
+							<td bgcolor="#cccccc" width="25%"><strong>Wind Direction<br />
+							(8 pts. of Compass)</strong></td>
+							<td bgcolor="#cccccc" width="25%"><strong>Sustained Wind Speed<br />
+							(MPH)</strong></td>
+							<td bgcolor="#cccccc" width="25%"><strong>Wind Gusts<br />
+							(MPH)</strong></td>
+						</tr>
+						<tr>
+							<td align="left" height="40" valign="top" width="140">0 to 24</td>
+							<td align="left" height="40" valign="top" width="139"><strong>N, NE, E, SE, S, SW,W,</strong> or <strong>NW </strong></td>
+							<td align="left" height="40" valign="top" width="160">Deterministic<br />
+							(e.g., 74 mph, 95 mph)</td>
+							<td align="left" height="40" valign="top" width="156">Deterministic<br />
+							(e.g., 115 mph)</td>
+						</tr>
+						<tr>
+							<td align="left" height="38" valign="top" width="140">&gt; 24 to 60</td>
+							<td align="left" height="38" valign="top" width="139">HU<br />
+							(variable &amp; uncertain)</td>
+							<td align="left" height="38" valign="top" width="160">HU<br />
+							(hurricane force possible)</td>
+							<td align="left" height="38" valign="top" width="156">HG<br />
+							(hurricane force possible)</td>
+						</tr>
+						<tr>
+							<td align="left" height="39" valign="top" width="140">&gt;60 to 120 (Day 5)</td>
+							<td align="left" height="39" valign="top" width="139">HU<br />
+							(variable &amp; uncertain)</td>
+							<td align="left" height="39" valign="top" width="160">HU<br />
+							(hurricane force possible)</td>
+							<td align="left" height="39" valign="top" width="156">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p align="center"><em><strong>AFM / PFM entries for Hurricanes. </strong></em></p>
+				</dd>
+			</dl>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+            </div>
+            <div style="clear:both"></div>
+            
+                        </div>
+
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+   
+                </div><!-- <div class="full-width-border"> -->
+           
+                <!-- area for features, frontpage thumbs, and custom page -->
+                
+                
+                <!-- end of <div class="partial-width-borderbottom feature-block"> -->
+                        <link rel="stylesheet" type="text/css" href="/css/mod-image-tiles.css" />
+                            <div id="image_tiles">
+        <div class="div-full mod-image-tiles">
+                    <div class="one-sixth-first" >
+                <a href="https://radar.weather.gov/station/KMRX/standard"><img alt="Local Radar" src="https://radar.weather.gov/ridge/standard/KMRX_loop.gif" />Local Radar</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://radar.weather.gov/station/KHTX/standard"><img alt="HUN Radar" src="https://radar.weather.gov/ridge/standard/KHTX_loop.gif" />Huntsville Radar</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G16&amp;sector=se&amp;band=GEOCOLOR&amp;length=24"><img alt="Regional Satellite" src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/se/GEOCOLOR/thumbnail.jpg" />Regional Satellite</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://digital.weather.gov/"><img alt="Graphical Forecast" src="https://graphical.weather.gov/images/conus/MaxT1_conus.png" />Graphical Forecast</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="http://www.wpc.ncep.noaa.gov/national_forecast/natfcst.php"><img alt="Weather Map" src="//www.wpc.ncep.noaa.gov/noaa/noaad1.gif " />Weather Map</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://www.weather.gov/mrx/dailygraphics"><img alt="Daily Graphics" src="https://www.weather.gov/images/mrx/brief/MRXDailyGraphicsComp.png" />Daily Graphics</a>
+            </div>
+                </div>
+                    </div>
+        
+                <div class="full-width-bordertop">
+                    		 <div class="full-width-first communication-links">
+                        	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://twitter.com/NWSMorristown" target="_blank">
+                			<img src="/css/images/twitter.png" width="16" alt="Follow us on Twitter" height="16" />&nbsp;&nbsp;Follow us on Twitter
+                		</a>
+               		</div>
+               	</div>
+                        	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://www.facebook.com/NWSMorristown" target="_blank">
+                			<img src="/css/images/fb.png" width="16" height="16" alt="Follow us on Facebook" />&nbsp;&nbsp;Follow us on Facebook
+                		</a>
+                	</div>
+                </div>
+         	            	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+            			<a style="text-decoration:none;" href="https://www.youtube.com/user/NWSMorristown" target="_blank">
+            				<img src="/css/images/youtube_play.png" alt="Follow us on YouTube" />&nbsp;&nbsp;Follow us on YouTube
+            			</a>
+            		</div>
+            	</div>
+                        <div class ="one-half-last nopad">
+               	<span class="txt-rt myforecast-current">
+                	<div class="myforecast-current">
+                		<a href="/rss_page.php?site_name=mrx" target="_blank" style="text-decoration:none;font-size:11px;">
+							<img src="/css/images/rss.png" width="16" height="16" alt="MRX RSS Feed" />&nbsp;&nbsp;MRX RSS Feed
+						</a>
+                	</div>
+                </span>
+          	</div>
+      	</div>
+    	<div style="clear:both;"></div>
+	
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            		<style type="text/css">
+            .footer-column-head a:link, .footer-column-head a:visited {
+                color: #ED7A08;		
+            }
+		</style>
+		<div class="footer-content">
+							<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="/mrx/">Additional Info</a>
+                            </span><br />
+                                                        <a href="/mrx/coop">Coop Program</a><br />
+                                                            <a href="/mrx/research">Local Research</a><br />
+                                                            <a href="/mrx/wx_education">Education</a><br />
+                                                            <a href="/mrx/additional_links">More Weather Links</a><br />
+                                                            <a href="/mrx/office">About Us</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="/mrx/">Spotter Resources</a>
+                            </span><br />
+                                                        <a href="https://www.weather.gov/mrx/spotterreports">Spotter Reports</a><br />
+                                                            <a href="https://www.weather.gov/mrx/brief">Briefing Page</a><br />
+                                                            <a href="https://forecast.weather.gov/product.php?site=NWS">Local Hazardous Weather Outlook</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            		</div>
+	
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+                    <div class="footer-legal">
+            <div class="footer-legal-content">
+
+                <div class="one-sixth-first" id="footer_legal_gov">
+                    <a href="http://www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+                </div>
+
+                <div class="one-half-first" id="footer_legal_info">
+                    <p> 
+                        <a href="http://www.commerce.gov">US Dept of Commerce</a><br />
+                        <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
+                        <a href="https://www.weather.gov" >National Weather Service</a><br />
+                        Morristown, TN<br>5974 Commerce Blvd.<br />Morristown, TN 37814<br />(423) 586-3771<br /><br /><a href="mailto:sr-mrx.webmaster@noaa.gov">Comments? Questions? Please Contact Us.</a>                    </p>
+                </div><!-- end of <div class="one-half-first" id="footer_legal_info"> -->
+
+                <div class="one-third-last" id="footer_required_links">
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br />
+                        <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br />
+                        <a href="https://www.weather.gov/help">Help</a><br />
+                        <a href="http://www.weather.gov/glossary">Glossary</a>
+                    </div>
+
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/privacy">Privacy Policy</a><br />
+                        <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br />
+                        <a href="https://www.weather.gov/about">About Us</a><br />
+                        <a href="https://www.weather.gov/careers">Career Opportunities</a>
+                    </div>
+                </div><!-- end of <div class="one-third-last" id="footer_required_links"> -->
+
+            </div><!-- end of <div class="footer-legal-content"> -->
+        </div><!-- end of <div class="footer-legal"> -->
+        
+        </div><!-- end of <div class="footer-legal"> -->
+
+        <script type="text/javascript" src="//www.weather.gov/js/govshutdown.js"></script>
+    </body>
+</html>
