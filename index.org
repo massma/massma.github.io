@@ -13,12 +13,12 @@
 
 ** Adam Massmann's home
 
-I am currently a consultant working with [[https://www.ketawaters.com][Keta Waters]], based in New
-York City. I am open to a wide range of work, including but not
-limited to: teaching, environmental monitoring & fieldwork, invasives
-removal, and land surface & atmospheric modeling. Please reach out if
-you think I might be able to help with anything you are working on ([[file:massmann-resume.pdf][my
-resume is here]]). Thanks!
+I am a consultant working with [[https://www.ketawaters.com][Keta Waters]], based in New York City. I
+am open to a wide range of work, including but not limited to:
+teaching, environmental monitoring & fieldwork, invasives removal, and
+land surface & atmospheric modeling. Please reach out if you think I
+might be able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is
+here]]). Thanks!
 
 email (personal): *massma* "at" *autistici* "dot" *org* \\
 email (work): *adam* "at" *ketawaters* "dot" *com* \\
