@@ -15,9 +15,9 @@
 
 I am a New York based consultant working with [[https://www.ketawaters.com][Keta Waters]]. I am open
 to a wide range of work, including but not limited to: teaching,
-environmental monitoring & fieldwork, invasives removal, and land
-surface & atmospheric modeling. Please reach out if you think I might
-be able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is
+environmental monitoring & fieldwork, invasives removal, and land,
+water & atmospheric modeling. Please reach out if you think I might be
+able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is
 here]]). Thanks!
 
 email (personal): *massma* "at" *autistici* "dot" *org* \\
