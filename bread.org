@@ -6,7 +6,7 @@
 #+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+STARTUP:    showall
-#+TITLE:      Adam Massmann
+#+TITLE:      Free Bread
 #+AUTHOR:     Adam Massmann
 #+EMAIL:      massma "at" autistici "dot" org
 #+LANGUAGE:   en
@@ -16,9 +16,8 @@
 *** Free Bread
 
 With the indispensable help of friends and the internet, I've
-developed a bread recipe that is simple, versatile, and easy to
-make. Most other bread recipes are probably tastier for specific
-purposes. This one has (in my experience) the unique attributes of
+developed a bread recipe. Most other bread recipes are probably
+tastier. This one has (in my experience) the unique attributes of
 being versatile, tasty enough, and hard to mess up, which is very
 important given my ability to mess up bread. The recipe is provided
 below. If you have any questions about it, or suggestions for
@@ -33,9 +32,9 @@ to massma "at" autistici "dot" org, with the following information:
   the bread is best fresh out of the oven. If you pick dough, see the
   recipe for baking instructions.
 - If you would like baked bread:
-  - Whether you would prefer more of a "mini loaf/roll" type bread, or a
-    flatbread (I prefer flatbread).
-  - What toppings, if any, yo would like. Current choices are:
+  - Whether you would prefer more of a "mini-loaf/roll" type bread, or
+    a flatbread (I prefer flatbread).
+  - What toppings, if any, you would like. Current choices are:
     - Nutritional yeast
     - Smoked Paprika
     - Za'atar
