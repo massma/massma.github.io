@@ -27,5 +27,7 @@ email (work): *adam* "at" *ketawaters* "dot" *com* \\
 
 *** Links
 
+- [[file:bread.org][Free Bread]] - I can deliver bread anywhere between 110th and 155th
+  streets in Manhattan.
 - [[file:almanac.org][New York City Central Park Weather Almanac]] - daily weather observations back to 1869.
 - [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.

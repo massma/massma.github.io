@@ -6,7 +6,7 @@
 #+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+STARTUP:    showall
-#+TITLE:      Adam Massmann
+#+TITLE:      NYC Weather Almanac
 #+AUTHOR:     Adam Massmann
 #+EMAIL:      massma "at" autistici "dot" org
 #+LANGUAGE:   en
