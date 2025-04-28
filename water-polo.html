@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-04-28 Mon 11:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Water Polo Notes</title>
+<meta name="author" content="Adam Massmann" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Water Polo Notes</h1>
+<div id="outline-container-org012258e" class="outline-2">
+<h2 id="org012258e">General practice outline</h2>
+<div class="outline-text-2" id="text-org012258e">
+<ul class="org-ul">
+<li>5-20 minutes warm up &amp; swimming</li>
+<li>0-10 minutes leg warm up &amp; work</li>
+<li>30-90 minutes passing (high intensity for leg conditioning)</li>
+<li>5-10 minutes shooting (usually just enough to warm up goalies)</li>
+<li>10-40 minutes counter attack drills (high intensity for swim conditioning)</li>
+<li>0-10 minutes half court 6v6</li>
+<li>10-30 minutes power play</li>
+<li>0-10 minutes games</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org041aa50" class="outline-2">
+<h2 id="org041aa50">Seasonal progression of practice structure</h2>
+<div class="outline-text-2" id="text-org041aa50">
+<ul class="org-ul">
+<li>Early practices have more passing</li>
+<li>Later practices move towards more counter attack drills and power
+play practice.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9462618" class="outline-2">
+<h2 id="org9462618">Example practice</h2>
+<div class="outline-text-2" id="text-org9462618">
+</div>
+<div id="outline-container-orgfb7a9f8" class="outline-3">
+<h3 id="orgfb7a9f8">Pure Conditioning (30 min)</h3>
+<div class="outline-text-3" id="text-orgfb7a9f8">
+<ul class="org-ul">
+<li>100-200yd warm up</li>
+<li>8-10x100yd alternating hard and steady (e.g., 10x100yd alternating
+1:10/1:20; but quantity and send off varies by lane/ability)</li>
+<li>200yd leg I.M. warm up
+<ul class="org-ul">
+<li>1st 50 tread w/ hands out</li>
+<li>2nd 50 tread w/ hands out, and 45 degree lunges</li>
+<li>3th 50 field block -&gt; knock down</li>
+<li>4th 50 field block -&gt; knock down -&gt; step over legs and 2 stroke recover</li>
+</ul></li>
+<li>5 min leg drill; alternate hands on head with hands out; 1st minute
+5s; 2nd minute 10s; 3rd minute 15s, 4th minute 20s, 5th minute 30s
+w/ last 30s all out</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge647213" class="outline-3">
+<h3 id="orge647213">Passing (60 min)</h3>
+<div class="outline-text-3" id="text-orge647213">
+<ul class="org-ul">
+<li>Squares in pairs (alternate hands; catch weak pass strong;
+catch strong pass weak; catch and turn strong side; catch and turn
+weak side; catch weak, reverse wheel, pass strong). Mix in
+"intensity periods" w/ legging up every pass. [10 min]</li>
+<li>Dog and owner passing [5 min]</li>
+<li>Passing groups of 3-4 (static, rotating clockwise, rotating
+counterclockwise, off hand, strong head, turning, etc.). Leg up
+every time. [10 min]</li>
+<li>Pressure passing in groups of 3-4 [10 min]</li>
+<li>Passing/2m/2mD Box drill in groups of 5-7:
+<ul class="org-ul">
+<li>3-5 passers in circle around center and
+center defender; try and pass around circle to get ball into
+center; center immediately dishes. Defender trying to front as
+much/as long as possible as ball moves around circle.</li>
+<li>Defender goes against every person in group before rotating in a
+new defender [25 min]</li>
+</ul></li>
+<li>Goalies: leg drills in cage, long passing (lots), pull downs, shooting.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org091af7b" class="outline-3">
+<h3 id="org091af7b">Counter Attack Drills (30 min)</h3>
+<div class="outline-text-3" id="text-org091af7b">
+<ul class="org-ul">
+<li>2-way 1 on nobody w/ a trailer</li>
+<li>2-on-1 continuous</li>
+<li>3-on-2 continuous</li>
+<li>4-on-3 continuous (depending on how above go)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc34ee1e" class="outline-2">
+<h2 id="orgc34ee1e">General notes on practices</h2>
+<div class="outline-text-2" id="text-orgc34ee1e">
+<ul class="org-ul">
+<li>Above is an example; they vary a lot (below is a list of drills I
+commonly use practices)</li>
+<li>Generally (relative to many other coaches): less swimming, less
+static shooting, and less scrimmaging. And more passing and more
+high intensity, high-repetition game situation drills.</li>
+<li>Philosophy is to try and maximize the number of reps each athlete
+gets in the 2 hour practice.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0c8d664" class="outline-2">
+<h2 id="org0c8d664">List of drills</h2>
+<div class="outline-text-2" id="text-org0c8d664">
+</div>
+<div id="outline-container-org8a261cb" class="outline-3">
+<h3 id="org8a261cb">Warm up &amp; swimming</h3>
+<div class="outline-text-3" id="text-org8a261cb">
+<ul class="org-ul">
+<li>8x50yd warm up freestyle down head up I.M on way back</li>
+<li>8-10x100yd alternating hard and steady (e.g., 10x100yd alternating
+1:10/1:20; but quantity and send off varies by lane/ability)</li>
+<li>10x partner pushing (or wrestling) on center line, sprint to
+opposite wall and back head up</li>
+<li>Head up whistle drill</li>
+<li>10x400yd steady when people are late for practice (heavy swim
+conditioning and incentive to be accountable &amp; on time)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org79cf842" class="outline-3">
+<h3 id="org79cf842">Leg work</h3>
+<div class="outline-text-3" id="text-org79cf842">
+<ul class="org-ul">
+<li>Jugs</li>
+<li>5 minute drill</li>
+<li>Lunges</li>
+<li>Water polo I.M.</li>
+<li>pull downs (goalies)</li>
+<li>Various pushing drills: locked, back to front, etc.</li>
+<li>Wall-balls</li>
+<li>Various directional sculling drills</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org62a85d5" class="outline-3">
+<h3 id="org62a85d5">Passing</h3>
+<div class="outline-text-3" id="text-org62a85d5">
+<ul class="org-ul">
+<li>Squares (partners)</li>
+<li>Dog and owner</li>
+<li>Groups of 3-4 passing static &amp; rotating</li>
+<li>Groups of 3-4 width passing w/ person in middle: catch and turn;
+w/ motion; motion w/ right back and drop over head</li>
+<li>Progressive passing competition: everyone start on lanes 3-4, get
+wider w/ each pass until full width of pool, if you drop the ball
+tread water w/ hands on head. Go until there's a winner.</li>
+<li>Pressure passing groups of 3-4</li>
+<li>Box drill (2m &amp; 2mD)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa1aab1" class="outline-3">
+<h3 id="orgfa1aab1">Shooting</h3>
+<div class="outline-text-3" id="text-orgfa1aab1">
+<ul class="org-ul">
+<li>Air force: static, w/ field block, w/ motion</li>
+<li>Two line greenies</li>
+<li>Positional open shoot</li>
+<li>Shoulder to shoulder: finish w/ half stroke head start</li>
+<li>Two shots against fieldblock, immediate to post up, 2x post up shots.</li>
+<li>10x shots in a row, pass alternating from 1 and 5.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2de7000" class="outline-3">
+<h3 id="org2de7000">Game situation</h3>
+<div class="outline-text-3" id="text-org2de7000">
+<ul class="org-ul">
+<li>6v5 half court; optional keep score</li>
+<li>5v5 scrimmage + one person all time offense</li>
+<li>2-way 1 on nobody w/ a trailer</li>
+<li>2-on-1 continuous</li>
+<li>3-on-2 continuous</li>
+<li>4-on-3 continuous</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9194316" class="outline-3">
+<h3 id="org9194316">End of practice games</h3>
+<div class="outline-text-3" id="text-org9194316">
+<ul class="org-ul">
+<li>6v5 for score; losing team must clean up pool</li>
+<li>2 v 2 v 2: teams of 2: no rules but goal must come off a
+dry pass from partner; scoring team goes into goal.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga614ce8" class="outline-2">
+<h2 id="orga614ce8">Game Strategy/philosophy</h2>
+<div class="outline-text-2" id="text-orga614ce8">
+</div>
+<div id="outline-container-orgf6669d1" class="outline-3">
+<h3 id="orgf6669d1">Defense</h3>
+<div class="outline-text-3" id="text-orgf6669d1">
+<ul class="org-ul">
+<li>Don't give up counter goals (really this is offense)</li>
+<li>Aggressive press high in the lanes w/ communication and help as needed
+<ul class="org-ul">
+<li>Top 3 anticipate counter</li>
+</ul></li>
+<li>Take ejection rather than goal</li>
+<li>Solid on power play defense
+<ul class="org-ul">
+<li>Unless a team has a strong lefty; force shots from 5 or 6; favor
+defense towards 1-2-4</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf2499f1" class="outline-3">
+<h3 id="orgf2499f1">Offense</h3>
+<div class="outline-text-3" id="text-orgf2499f1">
+<ul class="org-ul">
+<li>Focus on 3-4 person counter w/ emphasis on getting the ball into front court early</li>
+<li>Half court offense tailored to player strengths; but general
+philosophy is to use drives and picks to get favorable matchups, and
+selective overloads to isolate matchups away from opponents' help</li>
+<li>Important: no turnovers, no random shots, if not involved in play,
+rotate back to defense; don't get countered!</li>
+<li>Structured 6-in power play w/ adaptation as needed</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org07e94e8" class="outline-3">
+<h3 id="org07e94e8">Subbing</h3>
+<div class="outline-text-3" id="text-org07e94e8">
+<ul class="org-ul">
+<li>Subbing is mostly based on mistakes. With the exception of
+championships, if you make a mistake you come out. This is not
+punitive; it allows the coaches to teach on the mistake when it is
+fresh in the mind, and also because in many cases I find that
+mistakes are made because players are tired and need a break
+anyways. In practice this usually leads to rapid subbing where
+everybody plays and no one has to sit for too long. The goal is to
+develop a culture where mistakes are to be avoided, but also not a
+big deal: you come out, talk about it, and then go right back in. No
+big deal.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc054195" class="outline-2">
+<h2 id="orgc054195">Team culture</h2>
+<div class="outline-text-2" id="text-orgc054195">
+<ul class="org-ul">
+<li>Usually create a team/community agreement at the beginning of the
+season.</li>
+<li>Examples from the past:
+<ul class="org-ul">
+<li>If you miss a practice (for ANY reason) you have to sit out a game</li>
+<li>If anybody on the team is late to practice, the entire team has to
+do a pretty brutal swim set (10x400yd), and then squares for the
+rest of practice. Historically this led to a culture where no one
+was late; we only had to do this once or twice.</li>
+</ul></li>
+<li>Open to player input and edits on the agreement before the season,
+but the goal is a high standard of mutual accountability for
+athletes to show up and improve together as a team.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd8b40b1" class="outline-2">
+<h2 id="orgd8b40b1">Other notes</h2>
+<div class="outline-text-2" id="text-orgd8b40b1">
+<ul class="org-ul">
+<li>I'm not very technological so phone based communication is pathetic
+relative to modern norms</li>
+<li>I don't really fly so probably can't coach any tournaments that
+require plane travel
+<ul class="org-ul">
+<li>However I am very willing (and probably able) to set up
+scrimmages/games with local area teams and players, and go to
+local non-CWPA tournaments.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

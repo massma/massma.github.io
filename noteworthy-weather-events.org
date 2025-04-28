@@ -1,0 +1,11 @@
+- June 2023 Quebec fires and smoke
+  - Almanac for [2023-06-06 Tue] (todo)
+  - Almamac for [2023-06-07 Wed] (todo)
+  - Almamac for [2023-06-08 Thu] (todo)
+  - [[https://satlib.cira.colostate.edu/event/western-canada-wildfires/][RAMMB-CIRA imagery]]
+- Hurricane Sandy
+  -
+- The Great New England Hurricane of 1938
+  - Almanac for [[file:almanac/1938-09-21.html::<title>Wx on September, 21, 1938</title><p><a href="1938-09.html">Back to September, 1938's Index</a></p><a href="1938-09-20.html"><- Previous Day</a> | <a href="1938-09-22.html">Next Day -></a><h4>Weather on September, 21, 1938</h4><pre>][September 21, 1938]]
+  - [[https://www.weather.gov/okx/1938HurricaneHome][National Weather Service Historical Page]]
+  - [[https://en.wikipedia.org/wiki/1938_New_England_hurricane][Wikipedia Page]]

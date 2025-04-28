@@ -1,0 +1,157 @@
+#+OPTIONS: toc:nil html-postamble:nil num:nil ::800
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+TITLE: Water Polo Notes
+* General practice outline
+- 5-20 minutes warm up & swimming
+- 0-10 minutes leg warm up & work
+- 30-90 minutes passing (high intensity for leg conditioning)
+- 5-10 minutes shooting (usually just enough to warm up goalies)
+- 10-40 minutes counter attack drills (high intensity for swim conditioning)
+- 0-10 minutes half court 6v6
+- 10-30 minutes power play
+- 0-10 minutes games
+* Seasonal progression of practice structure
+- Early practices have more passing
+- Later practices move towards more counter attack drills and power
+  play practice.
+* Example practice
+** Pure Conditioning (30 min)
+- 100-200yd warm up
+- 8-10x100yd alternating hard and steady (e.g., 10x100yd alternating
+  1:10/1:20; but quantity and send off varies by lane/ability)
+- 200yd leg I.M. warm up
+  - 1st 50 tread w/ hands out
+  - 2nd 50 tread w/ hands out, and 45 degree lunges
+  - 3th 50 field block -> knock down
+  - 4th 50 field block -> knock down -> step over legs and 2 stroke recover
+- 5 min leg drill; alternate hands on head with hands out; 1st minute
+  5s; 2nd minute 10s; 3rd minute 15s, 4th minute 20s, 5th minute 30s
+  w/ last 30s all out
+** Passing (60 min)
+- Squares in pairs (alternate hands; catch weak pass strong;
+  catch strong pass weak; catch and turn strong side; catch and turn
+  weak side; catch weak, reverse wheel, pass strong). Mix in
+  "intensity periods" w/ legging up every pass. [10 min]
+- Dog and owner passing [5 min]
+- Passing groups of 3-4 (static, rotating clockwise, rotating
+  counterclockwise, off hand, strong head, turning, etc.). Leg up
+  every time. [10 min]
+- Pressure passing in groups of 3-4 [10 min]
+- Passing/2m/2mD Box drill in groups of 5-7:
+  - 3-5 passers in circle around center and
+    center defender; try and pass around circle to get ball into
+    center; center immediately dishes. Defender trying to front as
+    much/as long as possible as ball moves around circle.
+  - Defender goes against every person in group before rotating in a
+    new defender [25 min]
+- Goalies: leg drills in cage, long passing (lots), pull downs, shooting.
+** Counter Attack Drills (30 min)
+- 2-way 1 on nobody w/ a trailer
+- 2-on-1 continuous
+- 3-on-2 continuous
+- 4-on-3 continuous (depending on how above go)
+* General notes on practices
+- Above is an example; they vary a lot (below is a list of drills I
+  commonly use practices)
+- Generally (relative to many other coaches): less swimming, less
+  static shooting, and less scrimmaging. And more passing and more
+  high intensity, high-repetition game situation drills.
+- Philosophy is to try and maximize the number of reps each athlete
+  gets in the 2 hour practice.
+* List of drills
+** Warm up & swimming
+- 8x50yd warm up freestyle down head up I.M on way back
+- 8-10x100yd alternating hard and steady (e.g., 10x100yd alternating
+  1:10/1:20; but quantity and send off varies by lane/ability)
+- 10x partner pushing (or wrestling) on center line, sprint to
+  opposite wall and back head up
+- Head up whistle drill
+- 10x400yd steady when people are late for practice (heavy swim
+  conditioning and incentive to be accountable & on time)
+** Leg work
+- Jugs
+- 5 minute drill
+- Lunges
+- Water polo I.M.
+- pull downs (goalies)
+- Various pushing drills: locked, back to front, etc.
+- Wall-balls
+- Various directional sculling drills
+** Passing
+- Squares (partners)
+- Dog and owner
+- Groups of 3-4 passing static & rotating
+- Groups of 3-4 width passing w/ person in middle: catch and turn;
+  w/ motion; motion w/ right back and drop over head
+- Progressive passing competition: everyone start on lanes 3-4, get
+  wider w/ each pass until full width of pool, if you drop the ball
+  tread water w/ hands on head. Go until there's a winner.
+- Pressure passing groups of 3-4
+- Box drill (2m & 2mD)
+** Shooting
+- Air force: static, w/ field block, w/ motion
+- Two line greenies
+- Positional open shoot
+- Shoulder to shoulder: finish w/ half stroke head start
+- Two shots against fieldblock, immediate to post up, 2x post up shots.
+- 10x shots in a row, pass alternating from 1 and 5.
+** Game situation
+- 6v5 half court; optional keep score
+- 5v5 scrimmage + one person all time offense
+- 2-way 1 on nobody w/ a trailer
+- 2-on-1 continuous
+- 3-on-2 continuous
+- 4-on-3 continuous
+
+** End of practice games
+- 6v5 for score; losing team must clean up pool
+- 2 v 2 v 2: teams of 2: no rules but goal must come off a
+  dry pass from partner; scoring team goes into goal.
+* Game Strategy/philosophy
+** Defense
+- Don't give up counter goals (really this is offense)
+- Aggressive press high in the lanes w/ communication and help as needed
+  - Top 3 anticipate counter
+- Take ejection rather than goal
+- Solid on power play defense
+  - Unless a team has a strong lefty; force shots from 5 or 6; favor
+    defense towards 1-2-4
+** Offense
+- Focus on 3-4 person counter w/ emphasis on getting the ball into front court early
+- Half court offense tailored to player strengths; but general
+  philosophy is to use drives and picks to get favorable matchups, and
+  selective overloads to isolate matchups away from opponents' help
+- Important: no turnovers, no random shots, if not involved in play,
+  rotate back to defense; don't get countered!
+- Structured 6-in power play w/ adaptation as needed
+** Subbing
+- Subbing is mostly based on mistakes. With the exception of
+  championships, if you make a mistake you come out. This is not
+  punitive; it allows the coaches to teach on the mistake when it is
+  fresh in the mind, and also because in many cases I find that
+  mistakes are made because players are tired and need a break
+  anyways. In practice this usually leads to rapid subbing where
+  everybody plays and no one has to sit for too long. The goal is to
+  develop a culture where mistakes are to be avoided, but also not a
+  big deal: you come out, talk about it, and then go right back in. No
+  big deal.
+* Team culture
+- Usually create a team/community agreement at the beginning of the
+  season.
+- Examples from the past:
+  - If you miss a practice (for ANY reason) you have to sit out a game
+  - If anybody on the team is late to practice, the entire team has to
+    do a pretty brutal swim set (10x400yd), and then squares for the
+    rest of practice. Historically this led to a culture where no one
+    was late; we only had to do this once or twice.
+- Open to player input and edits on the agreement before the season,
+  but the goal is a high standard of mutual accountability for
+  athletes to show up and improve together as a team.
+* Other notes
+- I'm not very technological so phone based communication is pathetic
+  relative to modern norms
+- I don't really fly so probably can't coach any tournaments that
+  require plane travel
+  - However I am very willing (and probably able) to set up
+    scrimmages/games with local area teams and players, and go to
+    local non-CWPA tournaments.
