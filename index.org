@@ -13,14 +13,13 @@
 
 ** Adam Massmann's home
 
-I am a New York based environmental engineer and partner at [[https://www.ketawaters.com][Keta
-Waters]]. I am open to a wide range of work, with special preference for
-work towards universal access to clean air & water, food, shelter,
-and/or healthcare. I have particular experience with environmental
-modeling, data analysis, teaching, and the efficient review of large
-technical documents and research literature. If you think I might be
-able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is here]]),
-please reach out.
+I am a New York based environmental engineering consultant and partner
+at [[https://www.ketawaters.com][Keta Waters]]. I am seeking any work that improves access to clean air
+& water, food, shelter, healthcare, and/or education. I have particular
+experience with environmental modeling, data analysis, teaching, and
+the efficient review of large technical documents and research
+literature. If you think I might be able to help with anything you are
+working on ([[file:massmann-resume.pdf][my resume is here]]), please reach out.
 
 Beyond my more professionalized interests, I enjoy dancing, cooking,
 running, and attending live performances: theater, dance, sports; all
@@ -32,7 +31,7 @@ email: *adam* "at" *ketawaters* "dot" *com* \\
 *** Links
 
 - [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.
-
+  
 If you used my old weather almanac and miss it, please email me - I
 took it down to save energy/CPU usage/bandwidth, but it is easy to put
 it back up.
