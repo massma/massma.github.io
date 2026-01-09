@@ -1,0 +1,61 @@
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: title:nil
+#+OPTIONS: num:nil
+#+OPTIONS: ::800
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+STARTUP:    showall
+#+TITLE:      Bread
+#+AUTHOR:     Adam Massmann
+#+EMAIL:      massma "at" autistici "dot" org
+#+LANGUAGE:   en
+
+[[file:index.org][{Back to Home}]]
+
+With the indispensable help of friends and the internet, I've
+developed a bread recipe. The recipe evolved to be easy to make and
+versatile. However ease and versatility came at a cost: this probably
+won't be the most airy, delicious bread you've ever had.
+
+The recipe is provided below. If you have any questions about it, or
+suggestions for improvement, please email me.
+
+**** Sourdough Multipurpose Bread Recipe
+***** Ingredients
+- 3 cups wheat flour
+
+- 2 teaspoons salt
+
+- 1 cup sourdough starter (if you need starter, let me know and I
+  can deliver some)
+
+- 2 cups water
+
+- Whatever topping/seasonings you want. Some ideas:
+  - Chutneys
+  - Smoked paprika and nutritional yeast
+  - Za'atar
+
+***** Instructions
+1. In a large bowl, mix together the flour and salt.
+
+2. Add the starter and water, and mix until the flour is fully mixed
+   in with the wet ingredients.
+
+3. Makes ~6 flatbreads/rolls. I usually split the dough into 6 equal
+   portions and store in separate (small-ish) containers. Line
+   containers(s) with oil, and pour dough in. Will keep in fridge
+   mostly indefinitely (with varying sourness, airy-ness, etc.).
+
+4. When you want to bake, spread on a greased skillet or baking sheet,
+   top with seasonings (we like smoky/spicy, with some pickled things
+   or garlic pressed into the dough), and bake for 15-20 min at 430F
+   (could vary depending on oven; we go until the bottom is crispy but
+   not burnt). Can spread thin for more of a flat bread, or just
+   puddle in in the middle for more of a loaf-type bread.
+
+***** Notes
+- For a different flavor/nutritional profile you can substitute up to
+  1/2 cup of the wheat flour with non-wheat flour (for example,
+  chickpea flour).

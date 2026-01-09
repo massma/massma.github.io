@@ -1,0 +1,42 @@
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: title:nil
+#+OPTIONS: num:nil
+#+OPTIONS: ::800
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+STARTUP:    showall
+#+TITLE:      Adam Massmann
+#+AUTHOR:     Adam Massmann
+#+EMAIL:      adam "at" ketawaters "dot" com
+#+LANGUAGE:   en
+
+** Adam Massmann's home
+
+I am a New York based environmental engineer and partner at [[https://www.ketawaters.com][Keta
+Waters]]. I am open to a wide range of work, with special preference for
+work towards universal access to clean air & water, food, shelter,
+and/or healthcare. I have particular experience with environmental
+modeling, data analysis, teaching, and the efficient review of large
+technical documents and research literature. If you think I might be
+able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is here]]),
+please reach out.
+
+Beyond my more professionalized interests, I enjoy dancing, cooking,
+running, and attending live performances: theater, dance, sports; all
+sorts.
+
+email: *adam* "at" *ketawaters* "dot" *com* \\
+[[file:massma.asc][PGP Public key]] - id: 64D3824DEEA15678
+
+*** Links
+
+- [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.
+
+If you used my old weather almanac and miss it, please email me - I
+took it down to save energy/CPU usage/bandwidth, but it is easy to put
+it back up.
+
+  
+
+  
