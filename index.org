@@ -34,7 +34,7 @@ email: *adam* "at" *ketawaters* "dot" *com* \\
   
 If you used my old weather almanac and miss it, please email me - I
 took it down to save energy/CPU usage/bandwidth, but it is easy to put
-it back up.
+back up.
 
   
 
