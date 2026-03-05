@@ -17,9 +17,9 @@ I am a New York based environmental engineering consultant and partner
 at [[https://www.ketawaters.com][Keta Waters]]. I am seeking any work that improves access to clean air
 & water, food, shelter, healthcare, and/or education. I have particular
 experience with environmental modeling, data analysis, teaching, and
-the efficient review of large technical documents and research
-literature. If you think I might be able to help with anything you are
-working on ([[file:massmann-resume.pdf][my resume is here]]), please reach out.
+the efficient review of large technical documents. If you think I might
+be able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is here]]),
+please reach out.
 
 Beyond my more professionalized interests, I enjoy dancing, cooking,
 running, and attending live performances: theater, dance, sports; all
