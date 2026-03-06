@@ -21,9 +21,8 @@ the efficient review of large technical documents. If you think I might
 be able to help with anything you are working on ([[file:massmann-resume.pdf][my resume is here]]),
 please reach out.
 
-Beyond my more professionalized interests, I enjoy dancing, cooking,
-running, and attending live performances: theater, dance, sports; all
-sorts.
+In addition to work, I enjoy dancing, cooking, running, and attending
+live performances: theater, dance, sports; all sorts.
 
 email: *adam* "at" *ketawaters* "dot" *com* \\
 [[file:massma.asc][PGP Public key]] - id: 64D3824DEEA15678
