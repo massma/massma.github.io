@@ -31,6 +31,9 @@ email: *adam* "at" *ketawaters* "dot" *com* \\
 *** Links
 
 - [[http://www.columbia.edu/~akm2203/][My Old Website]] - from when I was a student.
+
+- Some legislation I support: the [[https://peacetaxfund.org/about-the-bill/][Religious Freedom
+  Peace Tax Fund Act]]; the [[https://www.nyhcampaign.org/][New York Health Act]]; the [[https://www.repairny.org/][REPAIR Act]].
   
 If you used my old weather almanac and miss it, please email me - I
 took it down to save energy/CPU usage/bandwidth, but it is easy to put
@@ -38,4 +41,4 @@ back up.
 
   
 
-  
+ 
